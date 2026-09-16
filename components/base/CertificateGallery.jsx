@@ -41,7 +41,7 @@ export function CertificateGallery({ title }) {
                   alt={`${title} ${index + 1}`}
                   fill
                   sizes="12rem"
-                  className="object-cover"
+                  className="object-contain p-3"
                 />
                 <div className="absolute inset-0 bg-neutral-950/0 transition-colors duration-300 group-hover:bg-neutral-950/10" />
               </button>

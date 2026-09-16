@@ -37,7 +37,7 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale} dir={dir} className={`${inter.variable} ${plexArabic.variable}`}>
-      <body className="flex min-h-screen flex-col antialiased">
+      <body className="flex min-h-screen flex-col antialiased" suppressHydrationWarning>
         <NextIntlClientProvider>
           <Navbar />
           <main className="flex-1">{children}</main>
