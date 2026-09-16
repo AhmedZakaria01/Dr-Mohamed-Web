@@ -1,0 +1,19 @@
+{
+  "title": "Hemorrhoid surgery",
+  "summary": "Understand what hemorrhoids are, what causes them, and when surgery becomes necessary to restore comfort and health.",
+  "introTitle": "What are Hemorrhoids?",
+  "intro": [
+    "Hemorrhoids are swollen veins in the lower rectum and anus, similar to varicose veins. They can cause pain, itching, bleeding, and discomfort.",
+    "When conservative treatments like dietary changes, topical medications, or lifestyle modifications fail to relieve symptoms, surgical intervention becomes an effective solution."
+  ],
+  "causesTitle": "Causes & When Surgery is Needed",
+  "causes": [
+    "Chronic constipation and straining during bowel movements",
+    "Pregnancy and childbirth pressure on veins",
+    "Aging and weakening of rectal support tissues",
+    "Persistent pain or bleeding not relieved by medications"
+  ],
+  "benefitsTitle": "Benefits of Surgery",
+  "benefits": "Surgical options such as hemorrhoidectomy or stapled hemorrhoidopexy are highly effective for severe or recurrent cases. They offer lasting relief from pain, bleeding, and discomfort, with a low recurrence rate.",
+  "image": "/images/services/hemorrhoid-surgery.png"
+}

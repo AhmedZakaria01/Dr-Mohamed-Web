@@ -1,0 +1,19 @@
+{
+  "title": "Laparoscopic surgeries",
+  "summary": "Explore how laparoscopic (keyhole) surgeries offer faster recovery, less pain, and minimal scarring for a variety of conditions.",
+  "introTitle": "What are Laparoscopic Surgeries?",
+  "intro": [
+    "Laparoscopic surgery is a minimally invasive technique that uses small incisions and a camera to perform operations inside the abdomen.",
+    "It is commonly used for gallbladder removal, appendectomy, hernia repair, and gynecological procedures, offering a quicker and safer recovery."
+  ],
+  "causesTitle": "Common Laparoscopic Procedures",
+  "causes": [
+    "Gallbladder removal (cholecystectomy)",
+    "Appendix removal (appendectomy)",
+    "Hernia repair",
+    "Treatment of abdominal or pelvic adhesions"
+  ],
+  "benefitsTitle": "Benefits of Surgery",
+  "benefits": "Laparoscopic surgery offers less post-operative pain, faster healing, smaller scars, and lower risk of complications compared to open surgery.",
+  "image": "/images/services/laparoscopic-surgeries.png"
+}

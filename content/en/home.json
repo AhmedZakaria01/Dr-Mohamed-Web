@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "tagline": "Professional Care",
+    "title": "Dr Mohamed Sera",
+    "subtitle": "Expert Surgeon & Consultant",
+    "description": "Receive top-tier medical consultation from a specialist with years of experience. Your health journey starts here.",
+    "cta": "Book Appointment",
+    "imageAlt": "Doctor image"
+  },
+  "getExpert": {
+    "eyebrow": "Get Expert",
+    "highlight": "Medical Consultation !",
+    "description": "Dr Mohamed Sera provide expert medical advice and consultation. Get in touch with our team to discuss"
+  },
+  "certificates": {
+    "sectionTitle": "Certificates"
+  },
+  "aboutTeaser": {
+    "sectionTitle": "About Dr Mohamed",
+    "clinicTitle": "Dr Mohamed Sera Clinic",
+    "drNameLabel": "Dr. Mohamed Sera’s",
+    "clinicDescription": "clinic combines expertise with the latest surgical innovations to ensure quick recovery and minimal discomfort. Whether you need a simple or complex procedure, our minimally invasive techniques provide you with the best care and faster healing. Your well-being is our priority-experience a healthier life today",
+    "cta": "More About Dr Mohamed"
+  },
+  "servicesTeaser": {
+    "sectionTitle": "Our Services",
+    "items": [
+      {
+        "title": "Anal fissure surgery",
+        "text": "Surgical treatments for chronic constipation disorders, excision of rectal pockets, surgical procedures for anal hemorrhoids, anal fistulas, anal abscesses, and Hirschsprung's disease.",
+        "link": "/AnalFissureSurgery"
+      },
+      {
+        "title": "Hemorrhoid surgery",
+        "text": "It refers to an abnormal dilation of the blood vessels located at the end of the rectum and anus.",
+        "link": "/HemorrhoidSurgery"
+      },
+      {
+        "title": "Ingrown toenail surgeries",
+        "text": "An ingrown nail occurs when the nail bends at its outer edge and grows into the skin.",
+        "link": "/IngrownToenailSurgery"
+      },
+      {
+        "title": "Laparoscopic surgeries",
+        "text": "Laparoscopic gallbladder removal surgeries, surgical appendectomy, repair of abdominal wall muscles, and laparoscopic hernia repair.",
+        "link": "/LaparoscopicSurgeries"
+      },
+      {
+        "title": "Minimally invasive surgeries",
+        "text": "Laparoscopic gallbladder removal surgeries, surgical and laparoscopic appendectomy, abdominal wall muscle repair, and laparoscopic hernia repair.",
+        "link": "/MinimallyInvasiveSurgeries"
+      },
+      {
+        "title": "Colon surgeries",
+        "text": "Surgical removal of the colon, either completely or partially, using laparoscopic techniques, and excision of benign and malignant colon tumors.",
+        "link": "/ColonSurgeries"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Colon surgeries",
+  "summary": "Explore surgical options for colon conditions, including tumor removal and minimally invasive techniques for better outcomes.",
+  "introTitle": "What Are Colon Surgeries?",
+  "intro": [
+    "Colon surgery involves removing part or all of the large intestine due to conditions such as cancer, diverticulitis, or inflammatory bowel disease.",
+    "These procedures may be performed using laparoscopic or open surgical techniques, depending on the case complexity."
+  ],
+  "causesTitle": "Common Reasons for Colon Surgery",
+  "causes": [
+    "Colon cancer or malignant tumors",
+    "Diverticulitis with complications such as perforation or abscess",
+    "Ulcerative colitis or Crohn’s disease",
+    "Colon blockages or severe bleeding"
+  ],
+  "benefitsTitle": "Benefits of Surgery",
+  "benefits": "Colon surgeries can remove diseased tissue, relieve symptoms, and prevent life-threatening complications, often improving long-term health and quality of life.",
+  "image": "/images/services/colon-surgeries.png"
+}

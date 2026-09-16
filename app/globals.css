@@ -1,0 +1,158 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/*
+ * Clinical Teal — the site's design tokens. Single source of truth for
+ * color/type/radius, per PROJECT_NOTES.md convention: no hand-written CSS
+ * values in components, everything traces back to a token defined here.
+ */
+@theme {
+  /* Primary — deep, confident teal. */
+  --color-brand-50: #effbfa;
+  --color-brand-100: #d7f3f1;
+  --color-brand-200: #aee6e2;
+  --color-brand-300: #7ed9d2;
+  --color-brand-400: #3fc2b8;
+  --color-brand-500: #14b8a6;
+  --color-brand-600: #0f6e6a;
+  --color-brand-700: #0c5652;
+  --color-brand-800: #094440;
+  --color-brand-900: #073531;
+  --color-brand-950: #041f1d;
+  --color-brand: var(--color-brand-600);
+
+  /* Accent — warm amber, used sparingly for CTAs/badges/highlights. */
+  --color-accent-50: #fff8eb;
+  --color-accent-100: #feedc7;
+  --color-accent-200: #fddb8f;
+  --color-accent-300: #fbc55a;
+  --color-accent-400: #f7b646;
+  --color-accent-500: #f2a93b;
+  --color-accent-600: #db8f1f;
+  --color-accent-700: #b5701a;
+  --color-accent-800: #8f5817;
+  --color-accent-900: #744815;
+  --color-accent-950: #402508;
+  --color-accent: var(--color-accent-500);
+  --color-accent-foreground: var(--color-accent-950);
+
+  /* Neutral — warm off-white / near-black, not clinical-cold gray. */
+  --color-neutral-50: #fafaf9;
+  --color-neutral-100: #f2f1ef;
+  --color-neutral-200: #e5e3df;
+  --color-neutral-300: #d3d0c9;
+  --color-neutral-400: #aba79d;
+  --color-neutral-500: #837e72;
+  --color-neutral-600: #635f55;
+  --color-neutral-700: #4c4940;
+  --color-neutral-800: #35332d;
+  --color-neutral-900: #24221d;
+  --color-neutral-950: #1c1c1a;
+
+  --color-background: var(--color-neutral-50);
+  --color-foreground: var(--color-neutral-950);
+  --color-muted: var(--color-neutral-100);
+  --color-muted-foreground: var(--color-neutral-600);
+  --color-border: var(--color-neutral-200);
+  --color-ring: var(--color-brand-500);
+
+  --font-arabic: var(--font-plex-arabic), "Segoe UI", Tahoma, sans-serif;
+  --font-latin: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply bg-background text-foreground;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  html[lang="ar"] body {
+    font-family: var(--font-arabic);
+  }
+
+  html[lang="en"] body {
+    font-family: var(--font-latin);
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-14px);
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee-rtl {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(50%);
+    }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-marquee {
+    animation: marquee 32s linear infinite;
+  }
+
+  html[dir="rtl"] .animate-marquee {
+    animation-name: marquee-rtl;
+  }
+
+  .mesh-bg {
+    background-image:
+      radial-gradient(ellipse 60% 50% at 15% 10%, color-mix(in oklab, var(--color-brand-400) 22%, transparent), transparent),
+      radial-gradient(ellipse 50% 45% at 90% 15%, color-mix(in oklab, var(--color-accent-300) 20%, transparent), transparent),
+      radial-gradient(ellipse 55% 45% at 50% 100%, color-mix(in oklab, var(--color-brand-300) 16%, transparent), transparent);
+  }
+}

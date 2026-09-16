@@ -1,0 +1,20 @@
+{
+  "title": "Contact Us",
+  "intro": "Have a question or need to book a consultation? Reach us on WhatsApp directly.",
+  "quickContact": {
+    "title": "Quick Contact",
+    "description": "Click below to chat with us instantly.",
+    "cta": "Chat on WhatsApp"
+  },
+  "phoneLabel": "Phone",
+  "emailLabel": "Email",
+  "workingHoursLabel": "Working Hours",
+  "saturdayToThursday": "Saturday - Thursday: 9:00 AM - 8:00 PM",
+  "friday": "Friday: 2:00 PM - 6:00 PM",
+  "callNow": "Call Now",
+  "needMoreHelp": {
+    "title": "Need More Help?",
+    "description": "We are here to help. Reach out anytime.",
+    "homeCta": "Home"
+  }
+}

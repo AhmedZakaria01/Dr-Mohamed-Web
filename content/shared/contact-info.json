@@ -1,0 +1,61 @@
+{
+  "_source_note": "Real contact facts pulled from Footer.jsx, WhatsappButton.jsx, CallButton.jsx, AboutUs.jsx and ContactUs.jsx (hardcoded JSX values), NOT from the placeholder about.phone/about.email in the locale JSON files (those are template leftovers — see content/README.md).",
+  "whatsapp": {
+    "number": "+20 105 050 5342",
+    "numberIntl": "201050505342",
+    "waLink": "https://wa.me/201050505342",
+    "defaultMessage": "Hello, is there anyone available to chat with!"
+  },
+  "primaryPhone": "+02 010 50 50 53 42",
+  "email": null,
+  "email_gap_note": "No real email address found anywhere in the source project. The locale JSON's about.email ('info@clinicname.com') is a template placeholder — do not use it.",
+  "socialLinks": {
+    "facebook": "https://www.facebook.com/DrMohamedsera",
+    "instagram": "https://www.instagram.com/dr.mohamed_sera/",
+    "linkedin": "https://www.linkedin.com/in/dr-mohamed-sera-01972822b/",
+    "youtube": "https://www.youtube.com/@yehiasera"
+  },
+  "clinics": [
+    {
+      "id": "helwan",
+      "name": { "en": "Helwan Clinic", "ar": "عيادة حلوان" },
+      "address": {
+        "en": "38 Mohamed Sayed Ahmed St, above Gad Restaurant, First Floor",
+        "ar": "٣٨ شارع محمد سيد احمد باشا أعلى مطعم جاد الدور الاول"
+      },
+      "phone": "01010403800",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3460.588932995025!2d31.328282075546237!3d29.847284975023534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDUwJzUwLjIiTiAzMcKwMTknNTEuMSJF!5e0!3m2!1sen!2seg!4v1751970265497!5m2!1sen!2seg"
+    },
+    {
+      "id": "maadi",
+      "name": { "en": "Maadi Clinic", "ar": "عيادة المعادي" },
+      "address": {
+        "en": "11 El Nasr St, Baskltah Bldg, above Mo'men & Carrier, 2nd Floor",
+        "ar": "11 شارع النصر عمارة بسكلته اعلى مؤمن و كاريير الدور الثاني"
+      },
+      "phone": "01050505342",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3456.117605587315!2d31.280801075551157!3d29.97604997495811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDU4JzMzLjgiTiAzMcKwMTcnMDAuMiJF!5e0!3m2!1sen!2seg!4v1751970295205!5m2!1sen!2seg"
+    },
+    {
+      "id": "fifth-settlement",
+      "name": { "en": "The 5th Settlement Clinic", "ar": "عيادة التجمع الخامس" },
+      "address": {
+        "en": "Cairo Medical Center, 90th St, 2nd Floor, Clinic 203",
+        "ar": "شارع التسعين مول كايرو ميديكال سنتر الدور الثانى عيادة ٢٠٣"
+      },
+      "phone": "01050505342",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.56449775976!2d31.4338974!3d30.020659000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14582335de708375%3A0xb44a4d7ef9e17718!2sCairo%20Medical%20Center%20(CMC)!5e0!3m2!1sen!2seg!4v1751970367500!5m2!1sen!2seg"
+    },
+    {
+      "id": "october",
+      "name": { "en": "October Clinic", "ar": "عيادة اكتوبر" },
+      "address": {
+        "en": "Cairo Medical Center, Central Axis, G7 Clinic, Ground Floor",
+        "ar": "كايرو ميديكال سنتر المحور المركزى الدور الارضى عيادة G7"
+      },
+      "phone": "01050505342",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3456.833621345643!2d30.915017075550413!3d29.955463974968605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDU3JzE5LjciTiAzMMKwNTUnMDMuMyJF!5e0!3m2!1sen!2seg!4v1751970321738!5m2!1sen!2seg"
+    }
+  ],
+  "workingHours_gap_note": "The working hours strings in the locale JSON (about.saturdayToThursday / about.friday: 'Saturday - Thursday 9:00 AM - 8:00 PM', 'Friday 2:00 PM - 6:00 PM') sit inside the same 'about' block as the confirmed-placeholder phone/email/location fields (generic clinic name 'Modern Medical Care Center', Cairo/Tahrir Street address). They were migrated into content/en|ar/contact.json as the best available text, but they were never confirmed against a real, per-clinic schedule and may also be template leftovers — verify with the user before publishing."
+}

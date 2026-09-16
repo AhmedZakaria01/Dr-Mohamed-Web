@@ -1,0 +1,16 @@
+{
+  "clinicName": "Modern Medical Care Center",
+  "slogan": "Excellence in healthcare",
+  "drName": "Dr. Mohamed Sera",
+  "clinicTitle": "Dr Mohamed Sera Clinic",
+  "surgeonLabel": "Surgeon",
+  "clinicDescription": "clinic combines expertise with the latest surgical innovations to ensure quick recovery and minimal discomfort. Whether you need a simple or complex procedure, our minimally invasive techniques provide you with the best care and faster healing. Your well-being is our priority-experience a healthier life today",
+  "stats": [
+    { "value": "5000+", "label": "Patients" },
+    { "value": "15+", "label": "Years of Experience" },
+    { "value": "98%", "label": "Patient Satisfaction" }
+  ],
+  "galleryTitle": "Clinic Interior Photos",
+  "contactTitle": "Contact Information",
+  "_gap_note": "about.location/phone/email from the source locale JSON are template placeholder values (Cairo/Tahrir Street address, +20 123 456 7890, info@clinicname.com) that contradict the real WhatsApp/clinic numbers found elsewhere in the source. They are intentionally NOT migrated here — see content/shared/contact-info.json for the real clinic numbers, and content/README.md for the gap list (no real email, no real gallery photos)."
+}

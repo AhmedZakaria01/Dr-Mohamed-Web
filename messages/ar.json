@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "خدماتنا",
+    "contact": "اتصل بنا",
+    "menuToggle": "فتح القائمة",
+    "menuClose": "إغلاق القائمة"
+  },
+  "footer": {
+    "about": "استشارات وعناية جراحية متقدمة باستخدام أحدث تقنيات الجراحة الأقل تداخلاً. صحتك هي أولويتنا.",
+    "contactTitle": "تواصل معنا",
+    "followUs": "تابعنا",
+    "rights": "جميع الحقوق محفوظة."
+  },
+  "languageSwitcher": {
+    "switchTo": "English"
+  },
+  "floatingContact": {
+    "whatsappLabel": "تحدث عبر واتساب",
+    "callLabel": "اتصل بنا"
+  },
+  "serviceCard": {
+    "readMore": "اعرف المزيد"
+  },
+  "breadcrumbs": {
+    "home": "الرئيسية",
+    "services": "خدماتنا"
+  },
+  "ctaBanner": {
+    "title": "هل تحتاج إلى مساعدة إضافية؟",
+    "description": "تواصل معنا أو احجز استشارتك اليوم.",
+    "cta": "اتصل بنا"
+  },
+  "contactForm": {
+    "title": "أرسل رسالة",
+    "description": "املأ البيانات وسنفتح لك واتساب مع رسالتك جاهزة للإرسال.",
+    "nameLabel": "الاسم",
+    "namePlaceholder": "اسمك بالكامل",
+    "messageLabel": "الرسالة",
+    "messagePlaceholder": "كيف يمكننا مساعدتك؟",
+    "submit": "المتابعة عبر واتساب",
+    "nameRequired": "من فضلك أدخل اسمك.",
+    "nameTooLong": "الاسم طويل جدًا.",
+    "messageRequired": "من فضلك أدخل رسالتك.",
+    "messageTooLong": "الرسالة طويلة جدًا — يرجى ألا تتجاوز 500 حرف."
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "title": "الصفحة غير موجودة",
+    "description": "الصفحة التي تبحث عنها غير موجودة أو ربما تم نقلها.",
+    "cta": "العودة للرئيسية"
+  }
+}

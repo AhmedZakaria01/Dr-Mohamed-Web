@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Our Services",
+    "contact": "Contact Us",
+    "menuToggle": "Toggle menu",
+    "menuClose": "Close menu"
+  },
+  "footer": {
+    "about": "Expert surgical consultation and care with the latest minimally invasive techniques. Your health, our mission.",
+    "contactTitle": "Contact",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  },
+  "languageSwitcher": {
+    "switchTo": "العربية"
+  },
+  "floatingContact": {
+    "whatsappLabel": "Chat on WhatsApp",
+    "callLabel": "Call us"
+  },
+  "serviceCard": {
+    "readMore": "Learn more"
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "services": "Our Services"
+  },
+  "ctaBanner": {
+    "title": "Need More Help?",
+    "description": "Contact us or book your consultation today.",
+    "cta": "Contact Us"
+  },
+  "contactForm": {
+    "title": "Send a Message",
+    "description": "Fill this in and we'll open WhatsApp with your message ready to send.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your full name",
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can we help?",
+    "submit": "Continue on WhatsApp",
+    "nameRequired": "Please enter your name.",
+    "nameTooLong": "Name is too long.",
+    "messageRequired": "Please enter a message.",
+    "messageTooLong": "Message is too long — please keep it under 500 characters."
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or may have moved.",
+    "cta": "Back to Home"
+  }
+}

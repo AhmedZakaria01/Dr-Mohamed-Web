@@ -1,0 +1,35 @@
+{
+  "sectionTitle": "Our Services",
+  "items": [
+    {
+      "slug": "anal-fissure-surgery",
+      "title": "Anal fissure surgery",
+      "summary": "Surgical treatments for chronic constipation disorders, excision of rectal pockets, surgical procedures for anal hemorrhoids, anal fistulas, anal abscesses, and Hirschsprung's disease."
+    },
+    {
+      "slug": "hemorrhoid-surgery",
+      "title": "Hemorrhoid surgery",
+      "summary": "It refers to an abnormal dilation of the blood vessels located at the end of the rectum and anus."
+    },
+    {
+      "slug": "ingrown-toenail-surgery",
+      "title": "Ingrown toenail surgeries",
+      "summary": "An ingrown nail occurs when the nail bends at its outer edge and grows into the skin."
+    },
+    {
+      "slug": "laparoscopic-surgeries",
+      "title": "Laparoscopic surgeries",
+      "summary": "Laparoscopic gallbladder removal surgeries, surgical appendectomy, repair of abdominal wall muscles, and laparoscopic hernia repair."
+    },
+    {
+      "slug": "minimally-invasive-surgeries",
+      "title": "Minimally invasive surgeries",
+      "summary": "Laparoscopic gallbladder removal surgeries, surgical and laparoscopic appendectomy, abdominal wall muscle repair, and laparoscopic hernia repair."
+    },
+    {
+      "slug": "colon-surgeries",
+      "title": "Colon surgeries",
+      "summary": "Surgical removal of the colon, either completely or partially, using laparoscopic techniques, and excision of benign and malignant colon tumors."
+    }
+  ]
+}

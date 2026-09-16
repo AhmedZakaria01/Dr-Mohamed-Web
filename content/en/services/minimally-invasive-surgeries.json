@@ -1,0 +1,19 @@
+{
+  "title": "Minimally invasive surgeries",
+  "summary": "Discover how modern minimally invasive surgical techniques lead to shorter hospital stays, quicker recovery, and better results.",
+  "introTitle": "What Are Minimally Invasive Surgeries?",
+  "intro": [
+    "Minimally invasive surgeries use advanced tools and cameras to operate through small incisions instead of large cuts.",
+    "This approach reduces trauma to the body, decreases blood loss, and speeds up the healing process."
+  ],
+  "causesTitle": "Common Procedures",
+  "causes": [
+    "Laparoscopic gallbladder removal",
+    "Appendectomy using keyhole techniques",
+    "Minimally invasive hernia repair",
+    "Gynecological laparoscopic procedures"
+  ],
+  "benefitsTitle": "Benefits of Surgery",
+  "benefits": "Minimally invasive surgery reduces post-operative pain, scarring, and complications, and helps you return quickly to your daily life and work.",
+  "image": "/images/services/minimally-invasive-surgeries.png"
+}
